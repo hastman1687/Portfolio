@@ -201,15 +201,16 @@ footer li:hover {
   }
   .button_mobile {
     position: relative;
-    left: 200px;
-
+    left: 250px;
     display: block;
   }
 
   .button_laptop {
     display: none;
   }
-
+  .hero div h1 {
+    font-size: 52px !important;
+  }
   .hero_container {
     flex-direction: column-reverse !important;
   }
@@ -227,8 +228,10 @@ footer li:hover {
   .section {
     padding: 96px 40px;
   }
+
   .section h1 {
     margin-bottom: 60px;
+    font-size: 44px;
   }
   .section_cont {
     width: calc(100% / 2) !important;
@@ -237,6 +240,14 @@ footer li:hover {
 
   .aboutme {
     justify-content: center !important;
+  }
+
+  .form_cont {
+    padding: 96px 40px;
+  }
+
+  .form_cont h2 {
+    font-size: 44px !important;
   }
 
   footer {
@@ -261,16 +272,53 @@ footer li:hover {
   }
   .button_mobile {
     position: relative;
-    left: 190px;
-
+    left: 210px;
     display: block;
   }
 
+  .hero {
+    padding: 56px 20px !important;
+  }
+  .hero div h1 {
+    font-size: 40px !important;
+  }
+
+  .lead {
+    font-size: 16px !important;
+  }
+
+  .contact_btn_hero {
+    padding: 12px 20px !important;
+  }
+
+  .section {
+    padding: 64px 20px !important;
+  }
+
+  .section h1 {
+    margin-bottom: 24px;
+    font-size: 36px;
+  }
   .section_cont {
     width: 100% !important;
     padding-top: 24px;
   }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
 
+  .form_cont {
+    padding: 64px 20px;
+  }
+  .form_cont h2 {
+    font-size: 36px !important;
+  }
+  .form_cont p {
+    font-size: 16px !important;
+  }
   footer {
     padding: 48px 20px !important;
   }
@@ -323,5 +371,21 @@ footer li:hover {
 
   .col-6 {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .button_mobile {
+    position: relative;
+    left: 30px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button_mobile {
+    position: relative;
+    left: 5px;
+    display: block;
   }
 }
